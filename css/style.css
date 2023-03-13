@@ -97,6 +97,7 @@ header {
     gap: 52px;
     text-align: center;
     align-items: center;
+    padding: 30px 10%;
 }
 
 .info {
@@ -105,5 +106,26 @@ header {
 
 .boxes {
     background-color: #ffffff;
-    padding-bottom: 20px;
+    padding-bottom: 2rem;
+}
+
+.quote {
+    background: #e5e7eb;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 400;
+    color: #1f2937;
+    padding: 70px 260px;
+    text-align: left;
+}
+
+.quote > .credit {
+    font-weight: bolder;
+    font-style: normal;
+    text-align: right;
+    font-size: 25px;
+}
+
+.credit::before {
+    content: "\2014\0020";
 }
