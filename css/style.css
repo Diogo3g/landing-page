@@ -129,3 +129,40 @@ header {
 .credit::before {
     content: "\2014\0020";
 }
+
+.modal {
+    background-color: #3882f6;
+    margin: 30px 10%;
+    color: #ffffff;
+    border-radius: 5px;
+    padding: 30px;
+    gap: 16px;
+    display: flex;
+}
+
+.left h2 {
+    font-weight: 800;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    padding-left: 40px;
+}
+
+.right {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 250px;
+}
+
+.right button {
+    padding: 15px;
+    background-color: #3882f6;
+    border: 5px solid#ffffff;
+    border-radius: 10px;
+    font-size: 15px;
+    color: #ffffff;
+    font-weight: 900;
+}
